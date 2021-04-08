@@ -6,13 +6,13 @@ public class Matrix {
         int x = 0;
         int y = nrs[0].length - 1;
         while(x < nrs.length && y >0) {
+            if (nrs[x][y] == target) {
+                return String.format("the index of the nr %s is (%s, %s) \n", target, x, y);
+            }
             if (nrs[x][y] < target) {
                 x++;
             } else {
                 y--;
-            }
-            if (nrs[x][y] == target) {
-                return String.format("the index of the nr %s is (%s, %s) \n", target, x, y);
             }
         }
      return String.format("nr %s is not inside of the matrix \n", target);
