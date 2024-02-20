@@ -1,4 +1,4 @@
-# example
+# Interview Task
 1. open a terminal 
 2. compile .java file to .class file
 assume that you downloaded the code to your workspace of intellij, my case /Users/xingliu/IdeaProjects
